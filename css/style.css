@@ -17,6 +17,22 @@ main section.grid article.cell {
     font-size: 2rem;
 }
 
+main section.grid article.cell.easy {
+    width: calc((100% / 7) - 4px);
+    height: calc((100% / 7) - 4px);
+}
+
+main section.grid article.cell.medium {
+    width: calc((100% / 9) - 4px);
+    height: calc((100% / 9) - 4px);
+}
+
+main section.grid article.cell.hard {
+    width: calc((100% / 10) - 4px);
+    height: calc((100% / 10) - 4px);
+}
+
+
 
 main section.grid article.cell.active {
     background-color: aqua;

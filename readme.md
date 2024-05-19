@@ -13,7 +13,8 @@ Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dat
 
 Creo un bottone ed una sezione dove inserire le caselle nel dom.
 Do le grandezze alla sezione. Do le grandezze alle celle che dovrò inserire per creare la griglia
-Creo una funziona per il click sul bottone per far generare le celle nella sezione tramite un ciclo
+Creo una funzione per il click sul bottone per far generare le celle nella sezione tramite un ciclo
+Pulisco in caso ci fosse una griglia già presente.
 Creo un ciclo for per creare ed inserire le celle nella sezione.
 Dentro il ciclo for includo anche l'indice della cella ed inoltre una funzione per l'aggiunta di una classe quando la determinata cella viene cliccata
 Creo una classe nel css per come deve essere visualizzata la cella quando cliccata.

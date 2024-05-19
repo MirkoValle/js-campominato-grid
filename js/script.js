@@ -1,5 +1,5 @@
 const btn = document.querySelector("button");
-const gridEl = document.querySelector("section");
+const gridEl = document.getElementById("grid");
 
 btn.addEventListener("click", function () {
     let modeEl = document.getElementById("mode");
